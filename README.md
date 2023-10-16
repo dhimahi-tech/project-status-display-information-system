@@ -1,2 +1,2 @@
-# custom-responsive-webpage
-Build a custom responsive webpage from scratch. This repo will be used for the page to be published by end of Oct 2023
+# Project Status Display Information System (PSDIS)
+Build a **custom & responsive** webpage to display project progress / status snapshot to all stakeholders. 
