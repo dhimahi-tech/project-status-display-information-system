@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .blocks-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Common styles for all blocks */
+  .block {
+    min-width: 30px; /* Minimum width for each block */
+    display: grid;
+    flex: 1;
+    grid-template-columns: auto;
+    gap: 0px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  /* Media queries to control block placement */
+  @media screen and (max-width: 600px) {
+    .block {
+      min-width: calc(25% - 10px); /* Four blocks per row on screens between 769px and 1024px */
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .block {
+      min-width: calc(50% - 10px); /* Two blocks per row on screens between 601px and 768px */
+    }
+  }
+  
+  .active1 {
+    grid-row: 1;
+    background-color: #AEC0E5;
+    color: black;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .active2 {
+    grid-row: 2;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .deploy1 {
+    grid-row: 1;
+    background-color: #B0E3E6;
+    color: black;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .deploy2 {
+    grid-row: 2;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .block1 {
+    grid-row: 1;
+    background-color: #FFCCCC;
+    color: black;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .block2 {
+    grid-row: 2;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .delay1 {
+    grid-row: 1;
+    background-color: #FFFF85;
+    color: black;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .delay2 {
+    grid-row: 2;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .publish1 {
+    grid-row: 1;
+    background-color: #86DFA1;
+    color: black;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .publish2 {
+    grid-row: 2;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .project-block {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .project-block:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .section1 {
+    background-color: #E0F7FA;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .section2 {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #E0F7FA;
+    border-radius: 0px 0px 5px 5px;
+  }
+  
+  .section3 {
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    resize: none;
+  }
+  
