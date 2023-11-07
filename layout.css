@@ -9,9 +9,9 @@ body {
     gap: 10px;
   }
   
-  /* Common styles for all blocks */
+  
   .block {
-    min-width: 30px; /* Minimum width for each block */
+    min-width: 30px; 
     display: grid;
     flex: 1;
     grid-template-columns: auto;
@@ -21,16 +21,16 @@ body {
     border-radius: 10px;
   }
   
-  /* Media queries to control block placement */
+ 
   @media screen and (max-width: 600px) {
     .block {
-      min-width: calc(25% - 10px); /* Four blocks per row on screens between 769px and 1024px */
+      min-width: calc(25% - 10px); 
     }
   }
   
   @media screen and (max-width: 500px) {
     .block {
-      min-width: calc(50% - 10px); /* Two blocks per row on screens between 601px and 768px */
+      min-width: calc(50% - 10px);
     }
   }
   
