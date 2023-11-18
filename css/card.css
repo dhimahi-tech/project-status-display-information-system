@@ -6,6 +6,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -185,7 +186,7 @@ body {
 
 textarea {
   width: 100%;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 5px;
