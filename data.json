@@ -1,0 +1,59 @@
+{
+    "content": [
+    {
+      "id": "mj5386qj",
+      "title": "CL245-2",
+      "subtitle": "Jetson Nano: Edge AI Solution",
+      "date": "2023-04-09T18:30:00.000Z",
+      "milestone": "Published",
+      "execstatus": "Active",
+      "deploymentrisk": "Low",
+      "demodate": "2023-06-09T18:30:00.000Z",
+      "notes": "[Mar 16]: Addressed critical defects\n[Mar 09]: Discussion with marketing lead"
+    },
+    {
+      "id": "ahm543mn",
+      "title": "GC215-1",
+      "subtitle": "Google Coral: Edge AI compute device",
+      "date": "2023-08-09T18:30:00.000Z",
+      "milestone": "Production",
+      "execstatus": "Delay",
+      "deploymentrisk": "Moderate",
+      "demodate": "2023-06-14T18:30:00.000Z",
+      "notes": "[Mar 16]: Travel to Tech event in Japan \n[Mar 09]: Discussion with customer engineering "
+    },
+    {
+      "id": "wuy532nx",
+      "title": "GC215-2",
+      "subtitle": "Texas Instruments WiFi Solution",
+      "date": "2023-10-09T18:30:00.000Z",
+      "milestone": "Deployment",
+      "execstatus": "Block",
+      "deploymentrisk": "High",
+      "demodate": "2023-11-14T18:30:00.000Z",
+      "notes": "[Sept 16]: Blocked by critical WiFi issues \n[July 09]: Discussion with program management"
+    },
+    {
+      "id": "wuy532nx",
+      "title": "GC215-2",
+      "subtitle": "Texas Instruments WiFi Solution",
+      "date": "2023-10-09T18:30:00.000Z",
+      "milestone": "Deployment",
+      "execstatus": "Active",
+      "deploymentrisk": "High",
+      "demodate": "2023-11-14T18:30:00.000Z",
+      "notes": "[Sept 16]: Blocked by critical WiFi issues \n[July 09]: Discussion with program management[Sept 16]: Blocked by critical WiFi issues \n[July 09]: Discussion with program management"
+    },
+    {
+      "id": "wuy532nx",
+      "title": "GC215-2",
+      "subtitle": "Texas Instruments WiFi Solution",
+      "date": "2023-10-09T18:30:00.000Z",
+      "milestone": "Deployment",
+      "execstatus": "Active",
+      "deploymentrisk": "High",
+      "demodate": "2023-11-14T18:30:00.000Z",
+      "notes": "[Sept 16]: Blocked by critical WiFi issues \n[July 09]: Discussion with program management"
+    }
+  ]
+}
