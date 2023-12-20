@@ -1,25 +1,25 @@
-# Project Status Display Information System (PSDIS)
+## Project Status Display Information System (PSDIS)
 
 Build a **custom & responsive** webpage to display project progress / status snapshot to all stakeholders.
 
-## About this project
+### About this project
 
-## What does it do?
+### What does it do?
 
-## Who does it help?
+### Who does it help?
 
-## How to use this project?
+### How to use this project?
 
-## File Organization
+### File Organization
 
-## Coding guidelines
+### Coding guidelines
 
-## FAQs
+### FAQs
 
-## Resources
+### Resources
 
-## Report a bug or suggest a new feature
+### Report a bug or suggest a new feature
 
-## Credits and acknowledgements
+### Credits and acknowledgements
 
-## License
+### License
