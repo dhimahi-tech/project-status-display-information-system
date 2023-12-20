@@ -1,34 +1,34 @@
 
 function logCardDetails(card) {
-    console.log('Project Details:');
-    console.log('Title:', card.title);
-    console.log('Subtitle:', card.subtitle);
-    console.log('Execution Status:', card.execstatus);
-    console.log('Milestone:', card.milestone);
-    console.log('Demo Date:', card.demodate);
-    console.log('Deployment Risk:', card.deploymentrisk);
-    console.log('Notes:', card.notes);
-  }
-  
-  
-  fetch('data.json')
-    .then(response => response.json())
-    .then(data => {
-      
-      const projects = data.content;
-  
-      
-      console.log('Data Buffer:', data);
-  
-      
-  
-    
-      const dashboard = document.querySelector('.dashboard');
-      projects.forEach(project => {
-        
-        logCardDetails(project);
-  
-        const projectDiv = `
+  console.log('Project Details:');
+  console.log('Title:', card.title);
+  console.log('Subtitle:', card.subtitle);
+  console.log('Execution Status:', card.execstatus);
+  console.log('Milestone:', card.milestone);
+  console.log('Demo Date:', card.demodate);
+  console.log('Deployment Risk:', card.deploymentrisk);
+  console.log('Notes:', card.notes);
+}
+
+
+fetch('data.json')
+  .then(response => response.json())
+  .then(data => {
+
+    const projects = data.content;
+
+
+    console.log('Data Buffer:', data);
+
+
+
+
+    const dashboard = document.querySelector('.dashboard');
+    projects.forEach(project => {
+
+      logCardDetails(project);
+
+      const projectDiv = `
           <div class="project" style="background-color: white">
             <div class="header">
               <h3>${project.title}</h3>
@@ -54,11 +54,10 @@ function logCardDetails(card) {
             </div>
           </div>
         `;
-  
-        
-        dashboard.innerHTML += projectDiv;
-      });
-  
-    })
-    .catch(error => console.error(error));
-  
+
+
+      dashboard.innerHTML += projectDiv;
+    });
+
+  })
+  .catch(error => console.error(error));
