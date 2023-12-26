@@ -1,3 +1,5 @@
+'use strict';
+
 // Function to log card details
 function logCardDetails(card) {
   console.log('Project Details:');
@@ -32,16 +34,16 @@ fetch('../data/card-details.json')
         case 'Active':
           activeCount++;
           break;
-        case 'Deploy':
+        case 'Deployed':
           deployCount++;
           break;
-        case 'Block':
+        case 'Blocked':
           blockCount++;
           break;
-        case 'Delay':
+        case 'Delayed':
           delayCount++;
           break;
-        case 'Publish':
+        case 'Published':
           publishCount++;
           break;
       }
@@ -66,16 +68,16 @@ fetch('../data/card-details.json')
         case 'Active':
           bgColor = '#A569BD ';
           break;
-        case 'Deploy':
+        case 'Deployed':
           bgColor = '#3498DB ';
           break;
-        case 'Block':
+        case 'Blocked':
           bgColor = '#E6546D';
           break;
-        case 'Delay':
+        case 'Delayed':
           bgColor = '#FFC300';
           break;
-        case 'Publish':
+        case 'Published':
           bgColor = '#2ECC71 ';
           break;
         default:

@@ -17,10 +17,10 @@
       "subtitle": "Google Coral: Edge AI compute device",
       "date": "2023-08-09T18:30:00.000Z",
       "milestone": "Production",
-      "execstatus": "Delay",
+      "execstatus": "Delayed",
       "deploymentrisk": "Moderate",
       "demodate": "2023-06-14T18:30:00.000Z",
-      "notes": "[Mar 16]: Travel to Tech event in Japan \n[Mar 09]: Discussion with customer engineering "
+      "notes": "[Mar 16]: Discussion with customer engineering team"
     },
     {
       "id": "wuy532nx",
@@ -28,7 +28,7 @@
       "subtitle": "Texas Instruments WiFi Solution",
       "date": "2023-10-09T18:30:00.000Z",
       "milestone": "Deployment",
-      "execstatus": "Block",
+      "execstatus": "Blocked",
       "deploymentrisk": "High",
       "demodate": "2023-11-14T18:30:00.000Z",
       "notes": "[Sept 16]: Blocked by critical WiFi issues \n[July 09]: Discussion with program management"
@@ -51,6 +51,28 @@
       "date": "2023-10-09T18:30:00.000Z",
       "milestone": "Deployment",
       "execstatus": "Active",
+      "deploymentrisk": "High",
+      "demodate": "2023-11-14T18:30:00.000Z",
+      "notes": "[Sept 16]: Blocked by critical WiFi issues \n[July 09]: Discussion with program management"
+    },
+    {
+      "id": "wuy532nx",
+      "title": "GC215-2",
+      "subtitle": "Texas Instruments WiFi Solution",
+      "date": "2023-10-09T18:30:00.000Z",
+      "milestone": "Deployment",
+      "execstatus": "Published",
+      "deploymentrisk": "High",
+      "demodate": "2023-11-14T18:30:00.000Z",
+      "notes": "[Sept 16]: Blocked by critical WiFi issues \n[July 09]: Discussion with program management"
+    },
+    {
+      "id": "wuy532nx",
+      "title": "GC215-2",
+      "subtitle": "Texas Instruments WiFi Solution",
+      "date": "2023-10-09T18:30:00.000Z",
+      "milestone": "Deployment",
+      "execstatus": "Deployed",
       "deploymentrisk": "High",
       "demodate": "2023-11-14T18:30:00.000Z",
       "notes": "[Sept 16]: Blocked by critical WiFi issues \n[July 09]: Discussion with program management"

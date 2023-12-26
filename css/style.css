@@ -6,6 +6,10 @@
 
 body {
   font-family: Arial, sans-serif;
+  /* sheshs */
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-top: 2vh;
 }
 
 .blocks-container {
